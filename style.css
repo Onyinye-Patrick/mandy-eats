@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive, 'Titillium Web', sans-serif;
+}
+.container{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+    background: white;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 45px;
+}
+ .logo h1{
+     font-size: 20px;
+     font-family:'Great Vibes', cursive, ;
+     color: black;
+ }
+ .logo h1 span{
+     color: #ed6665;
+ }
+ nav{
+     flex: 1;
+     text-align: center;
+ }
+ nav ul li{
+     list-style: none;
+     display: inline-block;
+     margin-left: 50px;
+ }
+ .menu{
+     width: 25px;
+     cursor: pointer;
+     display: none;
+    margin-right: 20px;
+ }
+ nav ul li a{
+     font-size: 10px;
+     text-decoration: none;
+     color: #ed6665;
+     text-transform: uppercase;
+     font-weight: 600;
+     font-family:  'Titillium Web', sans-serif;
+ }
+ a:hover{
+     transition: 0.3s;
+     color: #899853;
+ }
+ .row{
+     display: flex;
+   justify-content: space-between;
+     align-items: center;
+
+ }
+ .column{
+     flex-basis: 70%;
+     position: relative;
+     margin-top: 45px;
+ }
+ .column h6{
+     font-size: 18px;
+     font-family:'Great Vibes', cursive ;
+     letter-spacing: 3px;
+    
+ }
+ .column h6 span{
+     color: #ed6665;
+ }
+ .column .tees{
+     color: black;
+     font-family: 'Titillium Web', sans-serif;
+ }
+ .column h1{
+     font-size: 40px;
+     font-family: 'Titillium Web', sans-serif;
+     line-height: 50px;
+ }
+ .column h1 span{
+     color: #ed6665;
+ }
+ .column p{
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 12px;
+ }
+ button{
+     width: 140px;
+     height: 37px;
+     background: #899853;
+     border: 0;
+     border-radius: 20px;
+     text-align: center;
+     color: white;
+     font-size: 12px;
+     margin: 20px;
+ }
+ .card{
+     display: inline-flex;
+ }
+ .card1{
+    width: 400px;
+    height: 380px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .card2 {
+     width: 100%;
+ }
+ .break{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .about{
+     flex-basis: 70%;
+     position: relative;
+     background-color: #ed6665;
+     border-bottom-left-radius: 35px;
+     border-top-left-radius: 35px;
+     text-align: center;
+     height: 250px;
+ }
+ .box{
+     width: 75%;
+     margin-top: 35px;
+ }
+ .about h1{
+     color: white;
+     font-size: 30px;
+     font-family: 'Titillium Web', sans-serif;
+ }
+ .about p{
+     color: white;
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 13px;
+ }
+ .about button{
+    width: 140px;
+    height: 37px;
+    background: #899853;
+    border: 0;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+ }
+ .moon{
+     width: 100%;
+     text-align: center;
+     margin-top: 40px;
+ }
+ .moon h1{
+     font-size: 35px;
+     font-family:  'Titillium Web', sans-serif;
+ }
+ .moon p{
+     font-size: 12px;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 550;
+ }
+ .chips{
+     display: flex;
+     align-items: center;
+     justify-items: center;
+ }
+ .pack{
+     height: 300px;
+     width: 230px;
+     cursor: pointer;
+     display: block;
+     border-radius: 10px;
+     box-sizing: border-box;
+     background-position: center;
+     background-size: cover;
+     
+ }
+ .pack h5{
+     margin-top: -20px;
+     font-family:  'Titillium Web', sans-serif;
+     font-size: 15px;
+
+ }
+ .take{
+     height: 200px;
+     width: 230px;
+     cursor: pointer;
+     display: inline-block;
+     border-radius: 10px;
+     margin: 10px 15px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     background-position: center;
+     background-size: cover;
+     }
+     .fa-star{
+         color: rgb(21, 202, 21); 
+     }
+     .game{
+         width: 100%;
+         height: 80vh;
+         background: white;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-items: center;
+         margin-top: 55px;
+     }
+    .game h1{
+        font-size: 35px;
+        font-weight: 700;
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .game h1::after{
+        content: '';
+        width: 150px;
+        height: 4px;
+        background: linear-gradient(to right, #ed6665, #899853);
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+    }
+    .reviewBox{
+        width: 90%;
+        height: 300px;
+        max-width: 700px;
+        border-radius: 10px;
+        box-shadow: -10px 10px 40px rgb(0, 0, 0, 0.25);
+       position: relative;
+       overflow: hidden;
+    }
+    .cards{
+        height: 300px;
+        padding: 40px;
+        color: rgb(99, 97, 97);
+        line-height: 22px;
+        box-sizing: border-box;
+        background: #fff;
+        position: relative;
+        z-index: 1;
+    }
+    .profile{
+        align-items: center;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .profile img{
+        width: 70px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .profile h3{
+        font-size: 26px;
+        color: #ed6665;
+        margin-bottom: 8px;
+    }
+    #slide{
+        width: 100%;
+        padding-right: 60px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+    }
+    .sidebar{
+        width: 60px;
+        height: 100%;
+        padding: 15px 0;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #ed6665;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sidebar .fa{
+        width: 30px;
+        padding: 5px;
+        background: white;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .cards::before{
+        content: '';
+        width: 110px;
+        height: 110px;
+        border-bottom-right-radius: 100%;
+        background: #ed6665;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+footer{
+    height: 30vh;
+    width: 100%;
+    background: #899853;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    display: inline-block;
+  
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+    margin-top:  100px; ;
+    font-family: 'Titillium Web', sans-serif;
+}
+footer .fab{
+    color: #fff;
+    margin-top: 20px;
+}
+.checkbtn{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media only screen and (max-width: 700px){
+    nav ul{
+        width: 100%;
+        background: #8b2a2a;
+        position: absolute;
+        top: 75px;
+        left: -100%;
+        text-align: center;
+        z-index: 2;
+        height: 200px;
+        transition: 0.4s ease;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
+        
+    }
+    nav ul li a{
+        color: white;
+        font-size: 8px;
+    }
+    .checkbtn{
+        display: block;
+        margin-right: 25px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .row{
+        flex-direction: column-reverse;
+    }
+    .card{
+        flex-basis: 100%;
+    }
+    .column{
+        flex-basis: 100%;
+    }
+    .column h6{
+        font-size: 15px;
+        font-family:'Great Vibes', cursive ;
+        letter-spacing: 3px;
+    } 
+    .column h1{
+        font-size: 30px;
+        font-family: 'Titillium Web', sans-serif;
+        line-height: 50px;
+    }
+    .break{
+        flex-direction: column;
+    }
+    .loose{
+        flex-basis: 100%;
+        align-items: center;
+    }
+    .loose .box{
+        margin-left: 50px;
+    }
+    .about{
+        flex-basis: 100%;
+        position: relative;
+        background-color: #ed6665;
+        border-bottom-left-radius: 35px;
+        border-top-left-radius: 35px;
+        text-align: center;
+        height: 200px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about h1{
+        color: white;
+        font-size: 20px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .about p{
+        color: white;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 10px;
+    }
+    .about button{
+       width: 140px;
+       height: 37px;
+       background: #899853;
+       border: 0;
+       border-radius: 20px;
+       text-align: center;
+       color: white;
+       font-size: 12px;
+       margin: 20px;
+    }
+    .chips{
+        display: grid;
+        flex-basis: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 0px;
+        grid-column-gap: 20px;
+        grid-row-gap: 60px;
+        position: relative;
+       
+    }
+    .pack{
+        height: 200px;
+        width: 205px;
+        cursor: pointer;
+        display: block;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-position: center;
+        background-size: cover;
+        margin-left: -50px;
+        
+    }
+    
+    .game{
+        width: 100%;
+        height: 60vh;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-top: 55px;
+    }
+   .game h1{
+       font-size: 25px;
+       font-weight: 700;
+       position: relative;
+       margin-bottom: 60px;
+   }
+   .game h1::after{
+       content: '';
+       width: 150px;
+       height: 4px;
+       background: linear-gradient(to right, #ed6665, #899853);
+       position: absolute;
+       bottom: -20px;
+       left: 50%;
+       transform: translateX(-50%);
+       position: absolute;
+   }
+   .reviewBox{
+       width: 100%;
+       height: 300px;
+       max-width: 700px;
+       border-radius: 10px;
+       box-shadow: -10px 10px 40px rgb(0, 0, 0, 0.25);
+       position: relative;
+       overflow: hidden;
+   }
+   .cards{
+       height: 300px;
+       padding: 40px;
+       color: rgb(99, 97, 97);
+       line-height: 20px;
+       box-sizing: border-box;
+       background: #fff;
+       position: relative;
+       z-index: 1;
+   }
+   .profile{
+       align-items: center;
+       display: flex;
+       margin-bottom: 50px;
+   }
+   .profile img{
+       width: 50px;
+       border-radius: 50%;
+       margin-right: 30px;
+   }
+   .profile h3{
+       font-size: 26px;
+       color: #ed6665;
+       margin-bottom: 8px;
+   }
+   #slide{
+       width: 100%;
+       padding-right: 60px;
+       box-sizing: border-box;
+       position: absolute;
+       top: 0;
+       left: 0;
+       transition: 0.5s;
+   }
+   .sidebar{
+       width: 60px;
+       height: 100%;
+       padding: 15px 0;
+       box-sizing: border-box;
+       position: absolute;
+       top: 0;
+       right: 0;
+       background: #ed6665;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .sidebar .fa{
+       width: 30px;
+       padding: 5px;
+       background: white;
+       border-radius: 50%;
+       cursor: pointer;
+   }
+   .cards::before{
+       content: '';
+       width: 110px;
+       height: 110px;
+       border-bottom-right-radius: 100%;
+       background: #ed6665;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: -1;
+   }
+   .cards p{
+    line-height: 20px;
+    margin: -10px;
+   }
+   
+   footer{
+    height: 30vh;
+    width: 100%;
+    background: #899853;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    display: inline-block;
+  
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+    margin-top:  100px; ;
+    font-family: 'Titillium Web', sans-serif;
+}
+footer .fab{
+    color: #fff;
+    margin-top: 10px;
+}
+
+       
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+     
